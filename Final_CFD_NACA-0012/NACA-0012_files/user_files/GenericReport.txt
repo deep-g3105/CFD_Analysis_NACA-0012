@@ -1,0 +1,77 @@
+Generic Report
+
+ANSYS Logo: AnsysReportLogo.png
+
+Title: Generic Report
+
+Date:  2025/04/19 18:16:38
+
+______________________________________________________________________
+
+Contents
+1. File Report
+    Table 1  File Information for FFF
+2. Mesh Report
+    Table 2  Mesh Information for FFF
+    Table 3  Mesh Statistics for FFF
+3. Physics Report
+    Table 4  Domain Physics for FFF
+    Table 5  Boundary Physics for FFF
+4. Pictures
+    Figure 1
+______________________________________________________________________
+
+1. File Report
+
+Table 1.  File Information for FFF
+Case	FFF
+File Path	C:\Deep_Backup\Ansys_CFD\Final_CFD_NACA-0012\NACA-0012_files\dp0\FFF\Fluent\FFF-8-01000.dat.h5
+File Date	19 April 2025
+File Time	05:46:12 PM
+File Type	CFF
+File Version	--
+
+
+2. Mesh Report
+
+Table 2.  Mesh Information for FFF
+Domain	Nodes	Elements	Tetrahedra	Wedges	Pyramids	Hexahedra	Polyhedra
+solid surface_body	1053100	525000	0	0	0	0	525000
+
+
+Table 3.  Mesh Statistics for FFF
+Domain	Minimum Face Angle	Maximum Face Angle	Maximum Edge Length Ratio	Maximum Element Volume Ratio	Connectivity Range	
+solid surface_body	39.8267 [ degree ]	140.174 [ degree ]	55889.9	12.7604	1	4
+
+
+3. Physics Report
+
+Table 4.  Domain Physics for FFF
+Domain - solid surface_body	
+Type	FLUID
+Location	solid-surface_body
+
+
+Table 5.  Boundary Physics for FFF
+Domain	Boundaries	
+solid surface_body	Boundary - airfoil	
+	Type	WALL
+	Location	airfoil
+	Boundary - inlet	
+	Type	VELOCITY-INLET
+	Location	inlet
+	Boundary - outlet	
+	Type	PRESSURE-OUTLET
+	Location	outlet
+	Boundary - symmetry 1	
+	Type	SYMMETRY
+	Boundary - symmetry 2	
+	Type	SYMMETRY
+
+
+4. Pictures
+
+
+Figure 1 - GenericReport/Figure001.png
+
+
