@@ -9,6 +9,10 @@
 
 This project involves a **CFD study of the NACA 0012 symmetric airfoil** at **0°** and **5° angles of attack** using **ANSYS Fluent 2024 R2**. The objective was to investigate flow behavior, streamline patterns, and aerodynamic characteristics such as lift and drag under steady, incompressible conditions.
 
+   <p align="center">
+     <img src="Final_CFD_NACA-0012/AOA 5 deg/streamlines_5_zoomed_out.png" alt="Mesh" width="800">
+   </p>
+
 ---
 
 ## ⚙️ Workflow Summary
